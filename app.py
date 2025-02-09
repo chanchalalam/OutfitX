@@ -260,7 +260,7 @@ if "bottoms" not in st.session_state:
 if "shoes" not in st.session_state:
     st.session_state.shoes = []
 
-st.title("OutfitX: Where Style Meets Simplicity✨👗")
+st.title("OutfitX: Where Style Meets Simplicity🔥👕✨")
 
 # Sidebar - Upload clothing images
 st.sidebar.header("Upload Clothing Items")
