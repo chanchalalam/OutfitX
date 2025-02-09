@@ -245,33 +245,6 @@ import random
 from PIL import Image
 import io
 
-# Function to encode image to Base64
-def get_base64(image_path):
-    with open(image_path, "rb") as image_file:
-        return base64.b64encode(image_file.read()).decode()
-
-# Convert local image to Base64
-bg_image = get_base64("/Users/chanchalalam/Desktop/OutfitX/images.jpeg")  # Your image path
-
-# Inject CSS for background
-background_css = f"""
-<style>
-    body {{
-        background-image: url("data:image/jpeg;base64,{bg_image}");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }}
-</style>
-"""
-
-# Apply the background
-st.markdown(background_css, unsafe_allow_html=True)
-
-# App title
-st.title("OutfitX - Your Personal Outfit Curator 👗")
-
-st.write("Welcome to OutfitX, where fashion meets simplicity! ✨")
 
 # Simulated classification function
 def single_classification(image):
