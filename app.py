@@ -336,4 +336,3 @@ if st.button("👗 Generate Outfit Recommendation"):
             st.image(Image.open(io.BytesIO(bottom_choice[1])), caption=bottom_choice[0], width=200)
         with col3:
             st.image(Image.open(io.BytesIO(shoe_choice[1])), caption=shoe_choice[0], width=200)
-
