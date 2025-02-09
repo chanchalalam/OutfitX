@@ -290,7 +290,7 @@ if uploaded_file:
         st.sidebar.success(f"✅ {info} added!")
 
 # Display clothing collection
-st.header("Effortless Fashion, Every Day ")
+st.header("Effortless Fashion - Where Style Meets Simplicity ✨👗 ")
 
 col1, col2, col3 = st.columns(3)
 
