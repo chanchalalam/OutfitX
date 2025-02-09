@@ -260,7 +260,7 @@ if "bottoms" not in st.session_state:
 if "shoes" not in st.session_state:
     st.session_state.shoes = []
 
-st.title("👗 Outfit Recommendation System")
+st.title("👗 OutfitX")
 
 # Sidebar - Upload clothing images
 st.sidebar.header("Upload Clothing Items")
@@ -290,7 +290,7 @@ if uploaded_file:
         st.sidebar.success(f"✅ {info} added!")
 
 # Display clothing collection
-st.header("Your Clothing Collection")
+st.header("Effortless Fashion, Every Day ")
 
 col1, col2, col3 = st.columns(3)
 
