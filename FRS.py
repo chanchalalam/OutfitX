@@ -12,6 +12,8 @@ import uuid
 import hashlib
 import base64
 import numpy as np
+import cv2
+
 # --------------------------
 # Helper Functions
 # --------------------------
