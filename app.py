@@ -358,7 +358,8 @@ import datetime
 import random
 import os
 from PIL import Image
-from recognition_module import single_classification
+from py.recognition_module import single_classification
+from py.recognition_module import * 
 import uuid
 import hashlib
 import base64
