@@ -11,7 +11,7 @@ from PIL import Image
 import uuid
 import hashlib
 import base64
-
+import numpy as np
 # --------------------------
 # Helper Functions
 # --------------------------
