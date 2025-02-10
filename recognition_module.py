@@ -323,8 +323,7 @@ from tensorflow.keras.preprocessing import image
 
 
 #for read and show images
-import matplotlib.pyplot as plt
-import cv2                                                          
+import matplotlib.pyplot as plt                                                        
 import matplotlib.image as mpimg
 
 
